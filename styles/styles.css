@@ -73,8 +73,6 @@ nav {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     margin: 0 280px;
-    /* margin-left: 185px;
-    margin-right: 185px; */
     padding-top: 16px;
     padding-bottom: 16px;
     display: flex;
@@ -133,13 +131,8 @@ ul {
 
 .popular-tours-main .popular-img {
     width: 50%;
-    /* border: 1px solid red; */
-    /* width: 540px;
-    height: 550px; */
-    border: 1px solid tomato;
-    /* display: flex;
-    justify-content: center; */
 }
+
 .popular-tours-main .popular-img img {
     width: 100%;
 }
@@ -153,6 +146,47 @@ ul {
     font-weight: 800;
     margin-top: 32px;
 }
+
+
+
+
+
+
+/* Footer Section */
+footer {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1445px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.footer-top {
+    display: flex;
+    gap: 20px;
+    padding-top: 110px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 33px;
+}
+
+footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    padding-bottom: 33px;
+}
+
 
 
 
@@ -208,6 +242,7 @@ ul {
         height: 52px;
         text-align: center;
     }
+
     .popular-tours-main {
         flex-direction: column;
         gap: 24px;
@@ -219,22 +254,44 @@ ul {
         width: 100%;
         padding-left: 0px;
         padding-right: 0px;
-        /* text-align: center; */
+
     }
+
     .popular-content h1 {
         font-size: 20px;
         font-weight: 800;
     }
-    
+
     .popular-content p,
     ul {
         font-size: 14px;
         padding-top: 10px;
     }
-    .popular-tours-main .popular-img{
-       width: 100%;
-    }
-    .popular-tours-main .popular-img img{
+
+    .popular-tours-main .popular-img {
         width: 100%;
-     }
+    }
+
+    .popular-tours-main .popular-img img {
+        width: 100%;
+    }
+
+
+
+
+    /* Footer Section Responsive*/
+    .footer-top {
+        padding-top: 20px;
+    }
+
+    footer p {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    footer .footer-icons {
+        padding-bottom: 20px;
+    }
 }
