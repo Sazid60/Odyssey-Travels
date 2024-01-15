@@ -224,19 +224,11 @@ ul {
     
     .popular-content p,
     ul {
-        text-wrap: wrap;
         font-size: 14px;
         padding-top: 10px;
     }
-        .popular-tours-main .popular-img {
-
-            width: 345px;
-            height: 342px;
-
-        }
     .popular-tours-main .popular-img img {
-        width: 345px;
-        height: 342px;
+        width: 64%;
 
     }
 }
