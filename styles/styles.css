@@ -298,11 +298,13 @@ ul {
     padding-right: 20px;
     border-radius: 18px;
 }
+
 .all-cards h2 {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
 }
+
 .all-cards p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -383,6 +385,58 @@ ul {
 
 }
 
+/* Perfect Place Section */
+.prefect-place-container {
+    display: flex;
+    gap: 260px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1445px;
+    margin: 70px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 1px solid red; */
+}
+
+.prefect-place-container h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.prefect-place-container p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    width: 580px;
+    
+}
+
+.prefect-place-container ul {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.prefect-place-container button {
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    font-size: 20px;
+}
+.place-video{
+    width: 100%;
+}
+.place-video>iframe {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+
+}
 
 /* Newsletter Section */
 .newsletter-section {
@@ -468,7 +522,7 @@ ul {
 
 /* Footer Section */
 footer {
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -699,9 +753,11 @@ footer .footer-icons {
     .all-cards {
         flex-direction: column;
     }
+
     .all-cards h2 {
         font-size: 20px;
     }
+
     .all-cards p {
         font-size: 14px;
     }
@@ -710,9 +766,11 @@ footer .footer-icons {
     .do-section {
         width: 90%;
     }
+
     .do-section h2 {
         font-size: 20px;
     }
+
     .do-box-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
@@ -731,9 +789,56 @@ footer .footer-icons {
         transform: translateX(0px);
     }
 
+    /* Perfect Place Section*/
+    
+    .prefect-place-container {
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+        gap: 60px;
+        padding-left: 0px;
+        padding-right: 10px;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .prefect-place-container h1 {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .prefect-place-container p {
+        font-size: 14px;
+        width: 100%;
+        /* width: 330px; */
+
+    }
+
+    .prefect-place-container button {
+        width: 170px;
+        height: 52px;
+        font-size: 10px;
+    }
+
+    .prefect-place-container ul {
+        font-size: 14px;
+        width: 98%;
+        width: 330px;
+        padding-left: 20px;
+    }
+    .place-video>iframe {
+        width: 98%;
+        height: 200px;
+        /* display: flex;
+        justify-content: center; */
+    
+    }
+
     /* Newsletter section */
     .newsletter-section {
         flex-direction: column;
+        gap: 40px;
         width: 90%;
         margin-left: 15px;
     }
@@ -741,6 +846,7 @@ footer .footer-icons {
     .newsletter-inputs {
         width: 100%;
         height: 360px;
+        padding: 20px;
     }
 
     .newsletter-inputs>h1 {
@@ -777,6 +883,9 @@ footer .footer-icons {
     }
 
     /* Footer Section Responsive*/
+    footer {
+        margin-top: 30px;
+    }
     .footer-top {
         padding-top: 20px;
     }
