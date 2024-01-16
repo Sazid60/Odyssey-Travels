@@ -298,8 +298,15 @@ ul {
     padding-right: 20px;
     border-radius: 18px;
 }
-
+.all-cards h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
 .all-cards p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
     padding-top: 10px;
 }
 
@@ -685,15 +692,27 @@ footer .footer-icons {
         padding-left: 10px;
     }
 
+    .tour-parts-section h1 {
+        font-size: 24px;
+    }
+
     .all-cards {
         flex-direction: column;
+    }
+    .all-cards h2 {
+        font-size: 20px;
+    }
+    .all-cards p {
+        font-size: 14px;
     }
 
     /* What We Do Section */
     .do-section {
         width: 90%;
     }
-
+    .do-section h2 {
+        font-size: 20px;
+    }
     .do-box-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
