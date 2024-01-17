@@ -77,7 +77,7 @@ nav {
 .banner-selection {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin: 0 280px;
+    margin: 0 220px;
     padding-top: 16px;
     padding-bottom: 16px;
     display: flex;
@@ -385,16 +385,108 @@ ul {
 
 }
 
+/* Deals and Discount Section */
+.deals-discount {
+    max-width: 1445px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discount-title {
+    text-align: center;
+}
+
+.discount-title h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.discount-title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-div {
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.child-div {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    /* transform: translateX(800px); */
+    padding-top: 30px;
+    padding-left: 30px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.icon-top {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.body-contents {
+    margin-top: 30px;
+}
+
+.body-contents h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.body-contents p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.body-contents h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.body-contents button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 /* Perfect Place Section */
 .prefect-place-container {
     display: flex;
-    gap: 100px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     max-width: 1445px;
     margin: 70px auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
     /* border: 1px solid red; */
 }
 
@@ -790,6 +882,57 @@ footer .footer-icons {
     .do-box-container .box-3 {
         transform: translateX(0px);
     }
+
+
+    /* Deals And Discount Section */
+    .deals-discount {
+        max-width: 1440px;
+        width: 85%;
+    }
+    .discount-title h1 {
+        font-size: 20px;
+    }
+    
+    .discount-title p {
+        font-size: 14px;
+    }
+    .child-div {
+        width: 95%;
+        height: 390px;
+        padding-left: 26px;
+        position: absolute;
+        top: 15%;
+        left: 2.5%;
+    }
+    .icon-top {
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+    .icon-top>p {
+        font-size: 5px;
+    }
+    
+    .body-contents h3 {
+        font-size: 20px;
+    }
+    
+    .body-contents p {
+        font-size: 12px;
+    }
+    
+    .body-contents h4 {
+        font-size: 14px;
+    }
+    
+    .body-contents button {
+        font-size: 14px;
+    }
+    
+    
+    
+
+
+
 
     /* Perfect Place Section*/
 
